@@ -1,0 +1,87 @@
+body {
+	background-color: #000000;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 1.1;
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+p {
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+
+}
+
+.circle {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+	transition: background 0.5s;
+	/*to work on other browers*/
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#container {
+	margin: 25px auto;
+	max-width: 600px;
+}
+
+#messagestripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background-color: rgb(51, 124, 163);
+}
+
+#colorDisplay {
+	font-size: 150%;
+	text-transform: uppercase;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(51, 124, 163);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+	/*to work on other browers*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+button:hover {
+	color: white;
+	background-color: rgb(51, 124, 163);
+}
